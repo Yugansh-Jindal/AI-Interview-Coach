@@ -54,6 +54,7 @@ class InterviewAgent:
             previous_feedback=self.session.feedback,
             covered_topics=self.session.covered_topics,
     )
+        return self.session.current_question
         
     def submit_answer(self, answer):
         """

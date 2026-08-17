@@ -49,4 +49,4 @@ class InterviewSession:
     # Summary
     strengths: List[str] = field(default_factory=list)
     weaknesses: List[str] = field(default_factory=list)
-    recommendations: List[str] = field(default_factory=list)
+    recommendations: List[str] = field(default_factory=list) 
